@@ -32,11 +32,11 @@ with open("myfile.txt") as fp:
 
 print('-' * 50)
 print('TC Device')
-# Send single ping to oob-tc1 device
-tc1 = Ping('172.16.0.17', 22, 60)
+# Send single ping to device
+tc1 = Ping('1.1.1.1', 22, 60)
 result = tc1.ping(1)
 # If successful print to console & vice versa
 if result == None: 
-    print('osp-oob-tc1 is powered on')
+    print('device is powered on')
 else:
-    print('osp-oob-tc1 is powered off')
+    print('device is powered off')
