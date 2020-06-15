@@ -1,5 +1,7 @@
 # Juniper
-Python scripts for Juniper Devices.  
+Python scripts I've created for Juniper Devices.  
+Python version: 3.6
+
 **1.  powerdown.py**
 
 * This script will power down Juniper devices which are listed by IP address or domain name in a text file called juniperdevices.txt
