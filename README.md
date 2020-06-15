@@ -6,7 +6,7 @@ Python version: 3.6
 
 * This script will power down Juniper devices which are listed by IP address or domain name in a text file called juniperdevices.txt
 
-* Please note that the ext file needs to be in the same directory/folder for the script to successfully execute.
+* Please note that the text file needs to be in the same directory/folder for the script to successfully execute.
 * The sequence of devices that are powered down can be changed by changing where the IP address is located in the text file.
 e.g. If 192.168.1.1 is the 1st IP address in the text file then this will the 1st device to be powered down.
 * An example of the text file has been included for illustration purposes
