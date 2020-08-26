@@ -13,7 +13,7 @@ e.g. If 192.168.1.1 is the 1st IP address in the text file then this will the 1s
 
 **2.  poweruptest.py**
 
-* This script will check where a list of devices are powered on and responsive. This list is taken from the text file called myfile.txt
+* This script will check whether a list of devices are powered on and responsive. This list is taken from the text file called myfile.txt
 
 * Please note that the text file needs to be in the same directory/folder for the script to successfully execute.
 * This script works by logging onto the devices and printing the prompt to the screen.
